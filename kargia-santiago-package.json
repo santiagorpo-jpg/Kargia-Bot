@@ -1,0 +1,17 @@
+{
+  "name": "kargia-whatsapp-bot",
+  "version": "4.0.0",
+  "description": "Bot WhatsApp Kargia – Instalación cargadores eléctricos Medellín",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
