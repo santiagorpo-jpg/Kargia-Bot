@@ -341,4 +341,4 @@ app.post("/webhook", async (req, res) => {
 app.get("/", (_, res) => res.send("⚡ Kargia Bot v4 activo"));
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, '0.0.0.0', () => console.log(`⚡ Kargia Bot corriendo en puerto ${PORT}`));
+app.listen(PORT, '0.0.0.0', () => console.log(`Kargia Bot corriendo en puerto ${PORT}`));
