@@ -332,8 +332,11 @@ app.post("/webhook", async (req, res) => {
     }
 
   } catch (err) {
-    console.error("❌ Error:", err);
-  }
+    } catch (err) {
+    console.error("❌ Error completo:", JSON.stringify(err, null, 2));
+    console.error("❌ Mensaje:", err.message);
+    console.error("❌ Stack:", err.stack);
+    }
 });
 
 
